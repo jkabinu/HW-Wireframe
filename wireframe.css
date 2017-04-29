@@ -1,0 +1,107 @@
+body {
+	background-color: #777;
+	color: #ebebeb;
+	font-family: Arial, serif;
+	font-size: 15px;
+
+}
+
+#all {
+	width: 960px;
+}
+
+.header {
+	text-align: center;
+	margin: 10px 200px 5px 200px;
+	padding: 30px;
+	background-color: #ebebeb;
+	color: #777;
+ 	width: 960px;
+}
+
+.nav {
+	margin: 10px 200px 5px 200px;
+	padding: 30px;
+	background-color: #ebebeb;
+	color: #777;
+	width: 960px;
+
+}
+
+.tab {
+	margin: 5px;
+	text-align: center;
+	padding: 2px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: grey;
+	background-color: #777;
+	color: #ebebeb;
+	float: left;
+}
+
+
+#sect1 {
+	text-align: center;
+	background-color: #ebebeb;
+	color: #777;
+	margin: 10px 200px 5px 200px;
+	padding: 30px 30px 250px 30px;
+	width: 495px;
+	float: left;
+	position: relative;
+	
+}
+
+#art1 {
+	text-align: center;
+	color: #ebebeb;
+	background-color: #777;
+	margin: 0px 200px 5px 200px;
+	padding: 2px;
+	width: 350px;
+	position: absolute;
+	top: 500px;
+	left: 100px;
+	z-index: 1;
+
+}
+	
+
+
+#asi1 {
+	text-align: center;
+	background-color: #ebebeb;
+	color: #777; 
+	margin: 10px 200px 5px 200px;
+	padding: 30px 30px 200px 30px;
+	width: 400px;
+	position: absolute;
+	top: 220px;
+	left: 570px;
+	float: right;
+	
+}
+
+a:link {
+  color:            white;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            orange;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+
+a:hover {
+  color:            pink;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+
+footer {
+	font-style: italic; 
+	text-align: center;
+	
+}
